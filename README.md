@@ -12,9 +12,9 @@ To run the code:
 1. Clone this repository onto a folder.
 2. Clone the fbLSC-library github repository (https://github.com/BUNPC/fbLSC-library). Add it's directory to the path using Matlab's "pathtool" GUI. The analysis and preprocessing scripts rely on functions in the fbLSC-library, and the scripts will not run if Matlab cannot access those functions.
 3. Download the raw camera frame data from Zenodo (10.5281/zenodo.15857987). Ensure that the folder hierarchy matches the structure on Zenodo. The preprocessing script will save files to the correct directory to be accessed by the analysis code. 
-[![DOI](https://zenodo.org/badge/15857987.svg)](https://zenodo.org/badge/latestdoi/15857987)
-Run preprocess_script_example.m
-Run analyze_preprocessed_local_example.m
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15857987.svg)](https://doi.org/10.5281/zenodo.15857987)
+4. Run preprocess_script_example.m
+5. Run analyze_preprocessed_local_example.m
 
 The preprocess_script_example.m outputs:
 
@@ -38,4 +38,4 @@ The analyze_preprocessed_local_example.m outputs:
 
 For any issue reporting or suggestions, please contact Alexander Howard, ach12345@bu.edu
 
-[![DOI](https://zenodo.org/badge/15857987.svg)](https://zenodo.org/badge/latestdoi/15857987)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15857987.svg)](https://doi.org/10.5281/zenodo.15857987)
